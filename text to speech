@@ -1,0 +1,12 @@
+#text to speech
+import win32com.client
+shoutout=["praveen","neha","sethunadh","pavithra"]
+speaker=win32com.client.Dispatch("SAPI.Spvoice")
+for name in shoutout:
+    speaker.Speak(f"Good Morning{name}")
+import pyttsx3
+shouout=["rahul","harry","neha","sethu"]
+engine=pyttsx3.init()
+for name in shouout:
+    engine.say(f"Shoutout to {name}")
+engine.runAndWait()'''
