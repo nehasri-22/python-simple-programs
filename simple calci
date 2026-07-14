@@ -1,0 +1,11 @@
+a=int(input('1st number:'))
+b=int(input('2nd number:'))
+op=input('operation(+,-,*,/):')
+if op=='+':
+      print(a+b)
+elif op=='-':
+    print(a-b)
+elif op=='*':
+    print(a*b)
+elif op=='/':
+    print(a/b
