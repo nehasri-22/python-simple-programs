@@ -1,0 +1,9 @@
+import os
+#os.rename("coding.py","exercises.py")
+files=os.listdir("code")
+i=1
+for file in files:
+    if file.endswith(".html"):
+        print(file)
+        os.rename(f"code/{file}",f"code/{i}html")
+        i=i+1
