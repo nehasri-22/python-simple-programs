@@ -1,0 +1,13 @@
+import time
+curent_time=time.strftime('%H:%M:%S')
+print(curent_time)
+t=int(time.strftime('%H'))
+print(t)
+if (t>=0 and t<12):
+    print("Good morning")
+elif (t>=12 and t<17):
+    print("good afternoon")
+elif (t>=17 and t<21):
+    print('Good Evening')
+else:
+    print('Good Night')
